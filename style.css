@@ -281,18 +281,22 @@ body {
     color: #9615db;
 }
 
-#product1 .pro .cart {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50px;
-    background-color: #e8f6ea;
-    font-weight: 500;
-    color: #088178;
-    border: 1px solid #cce7d0;
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
+#product1 .pro button {
+    font-size: 9px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: white;
+    background-color: #2d3032;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    margin-right: -145px;
+}
+
+#product1 .pro button:hover {
+    background-color: #9615db;
 }
 
 #banner {
@@ -690,13 +694,13 @@ footer .copyright {
 }
 
 #form-details form button {
-    background-color: #088178;
+    background-color: #9615db;
     color: white;
 }
 
 
 /* Cart Page*/
-
+/*
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -806,4 +810,8 @@ footer .copyright {
     border: 1px solid #e2e9e1;
     padding: 10px;
     font-size: 13px;
-}
+} */
+
+
+/* Cart Working Page */
+
