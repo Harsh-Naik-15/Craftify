@@ -369,7 +369,7 @@ body{
     left: 100%;
     width: 400px;
     background-color: #2d3032;
-    height: 89vh;
+    height: 90vh;
     transition: 0.5s;
 }
 .active .card{
